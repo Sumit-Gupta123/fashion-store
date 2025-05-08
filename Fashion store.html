@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fashion Store</title>
+    <style>
+        body {
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .div1 {
+            background-color: blue; 
+            font-family: cursive;  
+            color: white; 
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px; 
+            width: 100%;
+            font-size: 20px;
+        }
+        .a1 {
+            text-decoration: none;
+            font-family: cursive;
+        }
+        .a1:hover {
+            color: purple;
+            font-size: large;
+        }
+        .div2 {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+            max-width: 100%;
+            justify-content: center;
+        }
+        .fig1 {
+            width: fit-content;
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+        .figc1 {
+            text-align: center;
+        }
+        .div3 {
+            background-color: gray;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+        .table1 {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid black;
+            height: 25px;
+        }
+        th {
+            border: 1px solid black;
+            height: 25px;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        @media (max-width: 768px) {
+            .div1 {
+                font-size: 18px;
+                padding: 15px 0;
+            }
+            .fig1 img {
+                width: 80px;
+                height: 80px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            .table1, .table1 th, .table1 td {
+            font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .div1 {
+                font-size: 16px;
+                padding: 10px 0;
+            }
+            .fig1 img {
+                width: 70px;
+                height: 70px;
+            }
+            .div2 {
+                flex-direction: column;
+                align-items: center;
+            }
+            h1, h2, h3 {
+                font-size: 1.2em;
+            }
+            .table1 {
+                display: block;
+                overflow-x: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="div1"><b>MY FASHION STORE</b></div>
+    <br>
+    <div class="div2">
+            <figure class="fig1">
+                <img src="t-shirt.png" alt="T-shirt" width="100px" height="100px" style="border-radius: 100px;">
+                <figcaption class="figc1">
+                    <a href="C:\Users\HP\Desktop\HTML-CSS project 1\T-shirts.html" class="a1">T-shirts</a>
+                </figcaption>
+            </figure>
+            <figure class="fig1">
+                <img src="sunglasses.png" alt="Sunglasses" width="100px" height="100px" style="border-radius: 100px;">
+                <figcaption class="figc1">
+                    <a href="#" class="a1">Sunglasses</a>
+                </figcaption>
+            </figure>
+            <figure class="fig1">
+                <img src="shirt.png" alt="shirt" width="100px" height="100px" style="border-radius: 100px;">
+                <figcaption class="figc1">
+                    <a href="#" class="a1">Shirts</a>
+                </figcaption>
+            </figure>
+            <figure class="fig1">
+                <img src="shoes.png" alt="shoes" width="100px" height="100px" style="border-radius: 100px;">
+                <figcaption class="figc1">
+                    <a href="#" class="a1">Shoes</a>
+                </figcaption>
+            </figure>
+            <figure class="fig1">
+                <img src="pants.png" alt="pants" width="100px" height="100px" style="border-radius: 100px;">
+                <figcaption class="figc1">
+                    <a href="#" class="a1">Pants</a>
+                </figcaption>
+            </figure>
+            <figure class="fig1">
+                <img src="perfumes.png" alt="perfumes" width="100px" height="100px" style="border-radius: 100px;">
+                <figcaption class="figc1">
+                    <a href="#" class="a1">Perfumes</a>
+                </figcaption>
+            </figure>
+    </div>
+    <div class="div3">
+        <figure>
+            <img src="fashion shopping.png" alt="fashion shopping" width="100%">
+        </figure>
+        <h1>OUR UPCOMING SALES</h1>
+        <table class="table1">
+            <tr style="background-color: purple;">
+                <th>Festival</th>
+                <th>Discount</th>
+                <th>Starting date</th>
+                <th>Ending date</th>
+            </tr>
+            <tr>
+                <td>Independence Day</td>
+                <td><del>30%</del>40%</td>
+                <td>10 August</td>
+                <td>20 August</td>
+            </tr>
+            <tr>
+                <td>Diwali</td>
+                <td><del>40%</del>50%</td>
+                <td>15 October</td>
+                <td>25 October</td>
+            </tr>
+        </table>
+    </div>
+    <h2 style="color: gray; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">My Fashion Store: The One-stop Fashion Destination</h2>
+    <p style="color: gray; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Stepping out and finding a perfect fashion choice is difficult? Why worry when you have your own Fashion Store at home where you can browse through thousands of choices and you can order clothes according to your liking. Don't worry if you don't like the item after you receive it, you can always consider the option for exchanging your item or even you can return your item and you will get the full amount back. Isn't that amazing? Start searching for your desired clothes and see it yourself. Once you are done with your first shopping, we are very sure that you will continue that in future as well and we will try our best to give you more and more choices so that you can have a variety of clothes to choose from and so you can find one which suits you the best. <br> What makes us Great? Well few things are listed below:</p>
+    <h3 style="color: gray; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Festival Sales</h3>
+    <p style="color: gray; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">We keep coming with different sales on our Indian Festivals where we offer huge discounts on your favorite clothes. If you want to get the notifications of all our future sales then you can subscribe to us and we will make sure that you will not miss any offer in future so that you can get your favorite cloth at the best possible price.</p>
+    <p style="color: gray; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Some of our favorite sales are listed below:</p>
+    <ul style="color: gray; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        <li>Independence day sale</li>
+        <li>Diwali sale</li>
+    </ul>
+    <h3 style="color: gray; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Payment options</h3>
+    <p style="color: gray; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">We support a large variety of payment options so that you won't miss a cloth due to unavailability of any payment option. You can use a debit card or your credit card to make the payment. Also, you can directly use your UPI ID to make the payment. We also provide EMI options if you think you can not afford a complete amount at once. Other than that, you can directly make your payment through your bank details and even if you are not sure or you are in doubt then you can choose the Cash option where you can pay the amount in cash to our partner who will be delivering your cloth at your doorstep.</p>
+    <footer>
+        &copy; 2025 MyFashionStore.com
+    </footer>
+</body>
+</html>
